@@ -1,17 +1,6 @@
-
-
-
-MVP:  
-======
-
-
-
-
-
-
 # MakersBnB
 
-[Task](#task) | [Approach](#approach) | [Execution](#execution) | [Struggles](#struggles) | [Demo](#demo) | [Technologies](#technologies)
+[Task](#task) | [Approach](#approach) | [Execution](#execution) | [Struggles](#struggles) | [Demo](#demo) | [Technologies](#technologies) | [Team](#team)
 
 
 ## <a name="task">Task</a>
@@ -119,11 +108,10 @@ lewis=> \l
 
 # <a name="technologies">Technologies</a>
 
+Development was entirely test driven using Ruby 2.4.1, JavaScript(JQuery) and RSpec testing framework. Capybara, Poltergeist and Selenium-WebDriver were used to automate browser feature tests. Rubocop was used to ensure standardised code formatting. The Sinatra web framework along with ERB was used to develop the web application. Databases are generated and managed using postgreSQL and maintained via Ruby using the ORM DataMapper. Password encryption is achieved through the use of the BCrypt gem.
 
 
-
-Team:
-=======
+# <a name="team">Team</a>
 
 ![](readmeimages/2.jpg)
 
