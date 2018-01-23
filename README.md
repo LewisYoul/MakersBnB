@@ -50,13 +50,15 @@ Upon completion of our MVP we joined as a team and diagrammed out the remaining 
 
 #### Relational Databases
 
+We wanted to use this challenge to fully cement our understanding of how relational databases operate. All the way from the commands required in postgreSQL to initially setting up a database and checking the contents of its tables, through to the use of DataMapper as an ORM and it's implementation at the model level.
 
 #### Password Encryption
 
+#### JavaScript
 
+#### REST
 
 ## <a name="execution">Execution</a>
-
 
 
 ## <a name="struggles">Struggles</a>
