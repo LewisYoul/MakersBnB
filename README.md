@@ -34,25 +34,16 @@ As a user,
 So that I can confirm my holiday,
 I want to be able to book a rental.
 ```
-We started off with listing all the AIRBNB user stories that could possibly exist from researching the workflow of how a User engages with AIRBNB. After that, we narrowed it down to three and chose the three user stories that would make our website unique
-
-Other Accomplished User Stories:
-====================
+Upon completion of our MVP we joined as a team and diagrammed out the remaining user stories that we wanted to implement.
 
 ```
--User can sign in to the website
--User can log in to the website
--User can log out from the website
--User can’t use the same username that has been installed
--User has to make sure the passwords are the same.
--User can search by city
--User can search by date
--When search, the list automatically reduces
--User can check out individual booking (Page)
--User can see the image of place, the availability, the guests, the price on the individual page
--User can book and receives a confirmation page
--User can go back to the home page after confirmation
--User gets to enjoy a nice interface during the experience
+- User can view an image for each property
+- User can sign up and sign in
+- User can log in
+- User can log out
+- User must use unique credentials
+- User can search by city
+- Booking a rental results in a confirmation page being displayed
 ```
 
 ## <a name="approach">Approach</a>
