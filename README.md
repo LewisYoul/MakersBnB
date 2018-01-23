@@ -58,6 +58,8 @@ Given that the previous week was our first using JavaScript and its JQuery libra
 
 #### REST
 
+The use of REST and RESTful API's is a relatively new concept to the whole team. We have therefore used this project as an exercise in understanding what it means for a website to be RESTful. We hope that we have mostly succeeded in making this a RESTful web application.
+
 ## <a name="execution">Execution</a>
 
 
