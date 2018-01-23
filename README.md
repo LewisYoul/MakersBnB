@@ -52,9 +52,9 @@ Upon completion of our MVP we joined as a team and diagrammed out the remaining 
 
 We wanted to use this challenge to fully cement our understanding of how relational databases operate. All the way from the commands required in postgreSQL to initially setting up a database and checking the contents of its tables, through to the use of DataMapper as an ORM and it's implementation at the model level.
 
-#### Password Encryption
-
 #### JavaScript
+
+Given that the previous week was our first using JavaScript and its JQuery library our team decided that we would like to use these as a method to display our rentals on the page. We therefore make a GET request to our Ruby API using JQuery and populate the page with our rentals. This also allows us to dynamically filter our properties when searching.
 
 #### REST
 
