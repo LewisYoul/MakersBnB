@@ -62,6 +62,9 @@ The use of REST and RESTful API's is a relatively new concept to the whole team.
 
 ## <a name="execution">Execution</a>
 
+We have endeavoured to follow Dont Repeat Yourself, **DRY** and Single Responsibility Principal, **SRP** at all times, extracting functions into private methods and using guard clauses where applicable. Edge cases have been accounted for through rigorous testing using doubles and method stubs in both unit and feature tests. Test classes are all run in isolation.
+
+Feature testing of the pages is achieved through the use of Capybara, Selenium WebDriver and Phantom JS.
 
 ## <a name="struggles">Struggles</a>
 
