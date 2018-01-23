@@ -13,7 +13,6 @@ MVP:
 
 [Task](#task) | [Approach](#approach) | [Execution](#execution) | [Struggles](#struggles) | [Demo](#demo) | [Technologies](#technologies)
 
-![](readmeimages/1.jpg)
 
 ## <a name="task">Task</a>
 
@@ -46,6 +45,8 @@ Upon completion of our MVP we joined as a team and diagrammed out the remaining 
 - Booking a rental results in a confirmation page being displayed
 ```
 
+![](readmeimages/1.jpg)
+
 ## <a name="approach">Approach</a>
 
 #### Relational Databases
@@ -68,7 +69,8 @@ Feature testing of the pages is achieved through the use of Capybara, Selenium W
 
 ## <a name="struggles">Struggles</a>
 
-
+* The dynamic manipulation of objects in the DOM using JavaScript and JQuery
+* The implementation and use of Dates to book rentals
 
 ## <a name="demo">Demo</a>
 
