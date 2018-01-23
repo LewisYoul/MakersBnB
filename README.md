@@ -19,22 +19,20 @@ MVP:
 
 This week was our first opportunity since beginning Makers Academy to create a project as part of a group. We were tasked with implementing our own version of the popular travel site AirBnB. This brought with it a number of new challenges that we were excited to explore! It afforded us a chance to use Agile methodologies and XP values to enhance the development of our project.
 
-
-User stories:
+I order to take an iterative approach we chose to break our project down into user stories, each of which could then be broken down into smaller components. Below are the three user stories for our MVP:
 
 ```
 As a user,
-When I'm looking on this MakersBNB,
-I would like to view rentals on the home page
+So that I can consider which property to stay in,
+I would like to be able to view the available rentals.
 
 As a user,
-When I'm looking on this MakersBNB,
-I would like to search properties by city
+So that I can gain more information about a rental,
+I would like to be given a rental overview when I select it.
 
 As a user,
-When I'm looking on this MakersBNB,
-I would like to see the property overview that I've selected
-
+So that I can confirm my holiday,
+I want to be able to book a rental.
 ```
 We started off with listing all the AIRBNB user stories that could possibly exist from researching the workflow of how a User engages with AIRBNB. After that, we narrowed it down to three and chose the three user stories that would make our website unique
 
