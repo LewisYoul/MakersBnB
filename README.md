@@ -1,6 +1,6 @@
 # MakersBnB
 
-[Task](#task) | [Approach](#approach) | [Execution](#execution) | [Struggles](#struggles) | [Demo](#demo) | [Technologies](#technologies) | [Team](#team)
+[Task](#task) | [Approach](#approach) | [Execution](#execution) | [Struggles](#struggles) | [Run the App](#demo) | [Technologies](#technologies) | [Team](#team)
 
 
 ## <a name="task">Task</a>
@@ -61,7 +61,7 @@ Feature testing of the pages is achieved through the use of Capybara, Selenium W
 * The dynamic manipulation of objects in the DOM using JavaScript and JQuery
 * The implementation and use of Dates to book rentals
 
-## <a name="demo">Demo</a>
+## <a name="demo">Run the App</a>
 
 In order to run MakersBnB locally and execute tests it requires that the postgreSQL databases are set up on your machine. To do this follow the steps below:
 
