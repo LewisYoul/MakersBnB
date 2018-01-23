@@ -17,7 +17,7 @@ MVP:
 
 ## <a name="task">Task</a>
 
-The challenge is to recreate as much of AIRBNB as possible within a week. Great fun.
+This week was our first opportunity since beginning Makers Academy to create a project as part of a group. We were tasked with implementing our own version of the popular travel site AirBnB. This brought with it a number of new challenges that we were excited to explore!
 
 
 User stories:
