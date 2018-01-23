@@ -81,11 +81,41 @@ In order to run MakersBnB locally and execute tests it requires that the postgre
 * Now do the following (note - you may need to set up your psql beforehand):
 
 ```
+➜  MakersBnB git:(master) ✗ psql
+psql (9.5.9)
+Type "help" for help.
 
+lewis=> \l
+                                           List of databases
+             Name             |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges
+
+------------------------------+----------+----------+-------------+-------------+-----------------------
+ Default                      | postgres | UTF8     | en_GB.UTF-8 | en_GB.UTF-8 |
+ blog                         | lewis    | UTF8     | en_GB.UTF-8 | en_GB.UTF-8 |
+ bookmark_manager_development | lewis    | UTF8     | en_GB.UTF-8 | en_GB.UTF-8 |
+ bookmark_manager_test        | lewis    | UTF8     | en_GB.UTF-8 | en_GB.UTF-8 |
+
+lewis=> CREATE DATABASE chitter_test
+CREATE DATABASE
+
+lewis=> CREATE DATABASE chitter_development
+CREATE DATABASE
+
+lewis=> \l
+                                           List of databases
+
+             Name             |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges
+------------------------------+----------+----------+-------------+-------------+-----------------------
+ Default                      | postgres | UTF8     | en_GB.UTF-8 | en_GB.UTF-8 |
+ blog                         | lewis    | UTF8     | en_GB.UTF-8 | en_GB.UTF-8 |
+ bookmark_manager_development | lewis    | UTF8     | en_GB.UTF-8 | en_GB.UTF-8 |
+ bookmark_manager_test        | lewis    | UTF8     | en_GB.UTF-8 | en_GB.UTF-8 |
+ makers_bnb_development       | lewis    | UTF8     | en_GB.UTF-8 | en_GB.UTF-8 |
+ makers_bnb_test              | lewis    | UTF8     | en_GB.UTF-8 | en_GB.UTF-8 |
 
 ```
 
- You can then run `rackup` to start the local server and Following this navigate to your browser of choice and enter your the port on which you are hosting. If this doesn't work you may need to run `rake db:auto_migrate` in the terminal to generate your User and Post tables.
+ You can then run `rackup` to start the local server and Following this navigate to your browser of choice and enter your the port on which you are hosting (we have defaulted it to use 9292). If this doesn't work you may need to run `rake db:auto_migrate` in the terminal to generate your User and Post tables.
 
 # <a name="technologies">Technologies</a>
 
